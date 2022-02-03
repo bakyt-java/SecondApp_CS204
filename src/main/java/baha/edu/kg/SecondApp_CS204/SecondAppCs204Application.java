@@ -3,7 +3,7 @@ package baha.edu.kg.SecondApp_CS204;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,7 +18,7 @@ public class SecondAppCs204Application {
 
 	@GetMapping("/")
 	public String index () {
-		return "How Are Yoy!";
+		return "How Are You!";
 	}
 
 
