@@ -17,8 +17,8 @@ public class SecondAppCs204Application {
 	}
 
 	@GetMapping("/")
-	public String index () {
-		return "How Are You!";
+	public String index() {
+		return "How Are You!!!";
 	}
 
 
