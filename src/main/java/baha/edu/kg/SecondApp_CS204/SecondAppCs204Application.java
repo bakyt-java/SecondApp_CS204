@@ -18,7 +18,11 @@ public class SecondAppCs204Application {
 
 	@GetMapping("/")
 	public String index() {
-		return "How Are You!!!";
+		return "How Are You!!! <a href='/about'>";
+	}
+	@GetMapping("/about")
+	public String about() {
+		return "<h1>Ikramov BAkyt<h1>";
 	}
 
 
